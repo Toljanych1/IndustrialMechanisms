@@ -1,0 +1,19 @@
+{
+    "type": "GenericCrafter", "name": "red-furnace", "size": 2,
+    "hasPower": true, "hasItem": true, "hasLiquid": false, "craftTime":45,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "power": 1,
+        "items":{
+            "items":[{ "item": "red-item", "amount": 2 }]
+        }
+    },
+    "requirements":[
+        { "item": "aluminium", "amount": 65 },
+        { "item": "silicon", "amount": 40 },
+        { "item": "red-item", "amount": 55 }
+    ],
+    "category": "crafting", "idleSound": "respawning", "idleSoundVolume": 0.5,
+    "research": { "parent": "red-item","planet": "serpulo", "root": false },
+    "outputItem": { "item": "red-ingot", "amount": 1 }
+}

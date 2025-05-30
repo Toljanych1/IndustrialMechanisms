@@ -1,8 +1,6 @@
 {
-    "type": "resource", "name": "aluminium-ingot",
-    "description": "this is ingot.",
+    "type": "resource", "name": "aluminium-ingot", "description": "this is ingot.",
     "explosiveness": 45, "flammability": 10, "radioactivity": 0,
-    "charge": 0, "cost": 2.0, "hardness": 3,
-    "color": "000000", "tier": 2, "alwaysUnlocked": true,
+    "charge": 0, "cost": 2.0, "hardness": 3, "color": "000000", "tier": 3, "alwaysUnlocked": true,
     "research": { "parent": "aluminium", "planet": "serpulo", "root": false }
 }

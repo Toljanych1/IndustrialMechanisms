@@ -1,0 +1,26 @@
+{
+    "type": "Drill", 
+    "name": "energy-drill", "description": "this is dril",
+    "size": 3,  "tier": 5, "drillTime": 75,
+    "hasPower": true, "hasLiquid": true, "hasItem": true,
+     "consumes": {
+        "power": 1.25, "liquid": {
+            "liquid": "water", 
+            "drillSpeed": 2.25, 
+            "amount": 0.095,
+            "optional": true, 
+            "booster": true, 
+            "update": true
+        }
+    },
+    "outputLiquid": "water", "liquidBoostIntensity": 2,
+    "outputLiquidPerTick": 0.5, "liquidCapacity": 20,
+    "requirements":[
+        { "item": "ALingot", "amount": 50 },
+        { "item": "silicon", "amount": 120 },
+        { "item": "titanium", "amount": 20 },
+        { "item": "titanium", "amount": 80 }
+    ],
+    "upgrade": { "effect": { "drillSpeed": 2 } }, "category": "production",
+    "research": { "parent": "laser-drill", "planet": "serpulo", "root": false }
+}

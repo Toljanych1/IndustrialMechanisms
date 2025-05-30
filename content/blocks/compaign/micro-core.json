@@ -1,0 +1,14 @@
+{
+    "type": "CoreBlock","name": "micro-core", "description": "this is micro core",
+    "constructor": "UnitEntity::new", "core": true,
+    "health": 2500, "size": 3, "itemCapacity": 1500, "unitCapModifier": 10, 
+    "researchCostMultiplier": 0.5, "unitType": "ogma", 
+    "spawnEffect": "spawn", "spawnSound": "spawn",  
+    "requirements": [
+        {"item": "ALingot", "amount": 500},
+        {"item": "aluminium", "amount": 400},
+        {"item": "silicon", "amount": 300}
+    ],
+    "category": "effect",  
+    "research": {"parent": "aluminium","planet": "serpulo", "root": false } 
+}

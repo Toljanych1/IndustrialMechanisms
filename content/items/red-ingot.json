@@ -1,0 +1,5 @@
+{
+    "type": "resource", "name": "red-ingot","description": "this is red ingot.",
+    "explosiveness": 0, "flammability": 0, "radioactivity": 0, "charge": 0, "cost": 2.0, "hardness": 3,
+    "color": "8B0000", "tier": 5, "research": { "parent": "mateglass", "planet": "serpulo", "root": false }   
+}
