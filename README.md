@@ -1,7 +1,7 @@
 # Industrial Mechanisms (Mindustry Mod)
 
-**Author**:
-**Helper**: 
+<p><strong>Author:<strong></p>
+<p><strong>Helper:<strong><p> 
 
 ## Description:
 
