@@ -1,7 +1,7 @@
 {
     "type": "payload",
-    "flying": true,
     "name": "ogma",
+    "flying": true,
     "shadowElevation": 0.1,
     "controller": "BuilderAI",
     "payloadCapacity": 64,
