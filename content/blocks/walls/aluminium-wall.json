@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "name": "aluminium-wall",
+    "description": "this is aluminium-wall",
+    "health": 750,
+    "size": 1,
+    "requirements": [
+        { "item": "aluminium", "amount": 6 }
+    ],
+    "category": "defense",
+    "research": {
+        "parent": "titanium-wall", 
+        "planet": "serpulo"
+    }
+}

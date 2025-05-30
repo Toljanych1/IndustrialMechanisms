@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "name": "aluminium-wall-large",
+    "description": "this is large aluminium wall",
+    "health": 3000,
+    "size": 2,
+    "requirements": [
+        { "item": "aluminium", "amount": 24 }
+    ],
+    "category": "defense",
+    "research": {
+        "parent": "aluminium-wall", 
+        "planet": "serpulo"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "name": "aluminium-compressor",
+    "size": 2,
+    "hasPower": true,
+    "hasItem": true,
+    "hasLiquid": false,
+    "craftTime": 60,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "power": 1,
+        "items": {
+            "items": [
+                { "item": "aluminium", "amount": 2 },
+                { "item": "silicon", "amount": 2 },
+                { "item": "sand", "amount": 1 }
+            ]
+        }
+    },
+    "requirements": [
+        { "item": "aluminium", "amount": 35 },
+        { "item": "silicon", "amount": 40 },
+        { "item": "titanium", "amount": 55 }
+    ],
+    "category": "crafting",
+    "research": { "parent": "kiln","planet": "serpulo"},
+    "idleSound": "respawning",
+    "idleSoundVolume": 0.5,
+    "outputItem": {"item": "aluminium-ingot", "amount": 1  }
+}

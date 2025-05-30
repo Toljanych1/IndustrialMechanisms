@@ -1,0 +1,46 @@
+{
+    "type": "payload",
+    "flying": true,
+    "name": "ogma",
+    "shadowElevation": 0.1,
+    "controller": "BuilderAI",
+    "payloadCapacity": 64,
+    "pickupUnits": true,
+    "fogRadius": 5,
+    "speed": 20,
+    "lowAltitude": true,
+    "mineWalls": true,
+    "mineFloor": true,
+    "mineSpeed": 6.5,
+    "mineTier": 2,
+    "buildSpeed": 1.55,
+    "accel": 0.09,
+    "rotateSpeed": 7.5,
+    "itemCapacity": 50,
+    "health": 330,
+    "armor": 1,
+    "hitSize": 10,
+    "outlineColor": "201F1FFF",
+    "useEngineElevation": false ,
+    "engineSize": 2.5,
+    "engineColor": "ffe293ff",
+    "weapons": [
+        {
+            "name": "proper-rocket",
+            "reload":20,
+            "shoot": {
+                "type": "shoot",
+                "shoot": {
+                    "type": "missile",  
+                    "damage": 50,      
+                    "speed": 4,
+                    "lifetime": 120,
+                    "splashDamage": 35,
+                    "splashDamageRadius": 45,
+                    "homingPower": 0.1,
+                    "bulletSprite": "missile" 
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "itemTurret",
+    "name": "aluminium-double-turret",
+    "description": "aluminium double turret",
+    "health": 250, "size": 1, "recoil": 7, "reload": 7,
+    "range": 235.5, "inaccuracy": 10, "rotateSpeed": 20,
+    "hasItems": true, "hasLiquids": true, "hasPower": false,
+    "shootEffect": {
+        "type": "Particle Effect", "particles": 5, "lifetime": 35,
+        "sizeFrom": 5, "color": "505050", "sizeTo": 0
+    },
+    "ammoTypes": {
+        "aluminium": {
+            "speed": 3, "lifetime": 100, "damage": 35, "flagBulletRadius": 8, "status": "burning",
+            "flagBullets": 3, "flagBullet": { "damage": 40, "speed": 3, "lifettime": 300 }
+        },
+        "copper": {
+            "speed": 3, "lifetime": 100, "damage": 20, "flagBulletRadius": 9, 
+            "flagBullets": 3, "flagBullet": { "damage": 35, "speed": 3, "lifettime": 300 }
+        }
+    },
+    "consumes": {
+        "liquid": {
+            "liquid": "water", "turretSpeed": 1.5, "amount": 0.095,
+            "optional": true, "booster": true, "update": true
+        }
+    },
+    "liquidBoostIntensity": 1.1, "outputLiquid": "water",
+    "outputLiquidPerTick": 0.5, "liquidCapacity": 5,
+    "requirements": [
+        { "item": "aluminium", "amount": 40 }, 
+        { "item": "copper", "amount": 70 }
+        
+    ],
+    "category": "turret", "research": { "parent": "duo", "planet": "serpulo" }
+}

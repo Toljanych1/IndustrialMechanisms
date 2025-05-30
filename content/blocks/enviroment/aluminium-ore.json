@@ -1,0 +1,11 @@
+{
+    "type": "OreBlock",
+    "name": "aluminium-ore",
+    "description": "This is aluminium ore.",
+    "itemDrop": "aluminium",
+    "alwaysUnlocked": true,
+    "research": {
+        "parent": "titanium-ore",
+        "planet": "serpulo"
+    }
+}
