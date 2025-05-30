@@ -1,7 +1,9 @@
 # Industrial Mechanisms (Mindustry Mod)
 
-<p><strong>Author:<strong></p>
-<p><strong>Helper:<strong><p> 
+<link rel="stylesheet" type="text/css" href="styles/readme.css" />
+
+<p class="author"><strong>Author:<strong></p>
+<p class="helper"><strong>Helper:<strong><p> 
 
 ## Description:
 
