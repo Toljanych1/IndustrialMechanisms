@@ -29,8 +29,7 @@
     "outputLiquidPerTick": 0.5, "liquidCapacity": 5,
     "requirements": [
         { "item": "aluminium", "amount": 40 }, 
-        { "item": "copper", "amount": 70 }
-        
+        { "item": "copper", "amount": 70 }   
     ],
-    "category": "turret", "research": { "parent": "duo", "planet": "serpulo" }
+    "category": "turret", "research": { "parent": "duo", "planet": "serpulo", "root": false }
 }

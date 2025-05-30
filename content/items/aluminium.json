@@ -1,18 +1,8 @@
 {
-    "type": "resource",
-    "name": "aluminium",
+    "type": "resource", "name": "aluminium",
     "description": "this is aluminium.",
-    "explosiveness": 0,
-    "flammability": 0,
-    "radioactivity": 0,
-    "charge": 0,
-    "cost": 2.0,
-    "hardness": 3,
-    "color": "000000",
-    "tier": 2,
-    "alwaysUnlocked": true,
-    "research": {
-        "parent": "titanium",
-        "planet": "serpulo"
-    }
+    "explosiveness": 0, "flammability": 0, "radioactivity": 0,
+    "charge": 0, "cost": 2.0, "hardness": 3,
+    "color": "000000", "tier": 2, "alwaysUnlocked": true,
+    "research": { "parent": "titanium", "planet": "serpulo", "root": false }
 }

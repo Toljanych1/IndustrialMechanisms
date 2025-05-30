@@ -23,8 +23,8 @@
         { "item": "titanium", "amount": 55 }
     ],
     "category": "crafting",
-    "research": { "parent": "kiln","planet": "serpulo"},
+    "research": { "parent": "kiln","planet": "serpulo", "root": false },
     "idleSound": "respawning",
     "idleSoundVolume": 0.5,
-    "outputItem": {"item": "aluminium-ingot", "amount": 1  }
+    "outputItem": { "item": "aluminium-ingot", "amount": 1  }
 }
