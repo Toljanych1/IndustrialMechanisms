@@ -5,7 +5,7 @@
     "researchCostMultiplier": 0.5, "unitType": "ogma", 
     "spawnEffect": "spawn", "spawnSound": "spawn",  
     "requirements": [
-        {"item": "ALingot", "amount": 500},
+        {"item": "aluminium-ingot", "amount": 500},
         {"item": "aluminium", "amount": 400},
         {"item": "silicon", "amount": 300}
     ],

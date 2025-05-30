@@ -16,7 +16,7 @@
     "outputLiquid": "water", "liquidBoostIntensity": 2,
     "outputLiquidPerTick": 0.5, "liquidCapacity": 20,
     "requirements":[
-        { "item": "ALingot", "amount": 50 },
+        { "item": "aluminium-ingot", "amount": 50 },
         { "item": "silicon", "amount": 120 },
         { "item": "titanium", "amount": 20 },
         { "item": "titanium", "amount": 80 }
