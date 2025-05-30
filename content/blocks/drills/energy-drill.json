@@ -18,8 +18,7 @@
     "requirements":[
         { "item": "aluminium-ingot", "amount": 50 },
         { "item": "silicon", "amount": 120 },
-        { "item": "titanium", "amount": 20 },
-        { "item": "titanium", "amount": 80 }
+        { "item": "titanium", "amount": 20 }
     ],
     "upgrade": { "effect": { "drillSpeed": 2 } }, "category": "production",
     "research": { "parent": "laser-drill", "planet": "serpulo", "root": false }
