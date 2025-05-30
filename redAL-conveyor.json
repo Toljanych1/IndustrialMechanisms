@@ -1,0 +1,15 @@
+{
+  "type": "Conveyor",
+  "name": "redAL conveyor",
+  "description": "redAL conveyor",
+  "size": 1,
+  "requirements": [
+    { "item": "redingot", "amount": 3 },
+    { "item": "ALingot", "amount": 3 }
+  ], 
+  "category": "distribution",
+  "speed": 0.35,
+  "heath": 160,
+  "displayedSpeed": 20,
+  "research": "titanium-conveyor"
+}
