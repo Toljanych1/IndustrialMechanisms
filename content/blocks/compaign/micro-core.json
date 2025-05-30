@@ -10,5 +10,5 @@
         {"item": "silicon", "amount": 300}
     ],
     "category": "effect",  
-    "research": {"parent": "aluminium","planet": "serpulo", "root": false } 
+    "research": {"parent": "core-foundation","planet": "serpulo", "root": false } 
 }
