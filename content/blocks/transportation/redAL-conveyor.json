@@ -4,8 +4,8 @@
   "description": "redAL conveyor",
   "size": 1,
   "requirements": [
-    { "item": "redingot", "amount": 3 },
-    { "item": "ALingot", "amount": 3 }
+    { "item": "red-ingot", "amount": 3 },
+    { "item": "aluminium-ingot", "amount": 3 }
   ], 
   "category": "distribution",
   "speed": 0.35,
